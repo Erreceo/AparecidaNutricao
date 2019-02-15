@@ -4,8 +4,6 @@ titulo.textContent = "Aparecida Nutricionista";
 
 var pacientes = document.querySelectorAll(".paciente");
 
-console.log(pacientes);
-
 for ( var i = 0; i < pacientes.length; i++ ){
 
     var tdPeso = pacientes[i].querySelector(".info-peso");
